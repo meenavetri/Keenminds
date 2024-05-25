@@ -1,0 +1,46 @@
+.landingpage{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(148, 145, 145, 0.6),rgba(148, 145, 145, 0.6)), url('../../assets/Landingimage.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+}
+.landingpage-text{
+    text-align: center;
+    max-width: 800px;
+    animation: fadeIn 3s;
+}
+.landingpage-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+.landingpage-text h1{
+    font-size: 60px;
+    font-weight: 600;
+   
+}
+.landingpage-text button img{
+    width: 20px;
+    margin-left: 10px;
+}
+@media (max-width:850px) {
+    .landingpage-text h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:650px) {
+    .landingpage-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .landingpage-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
