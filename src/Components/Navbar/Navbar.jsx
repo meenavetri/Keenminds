@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import menu_icon from '../../assets/menu-icon.png'
 import { Link } from 'react-scroll';
+import logo from '../../assets/Logo.png'
 const Navbar = () => {
   const [sticky,setSticky]=useState(false);
   useEffect(()=>{
@@ -16,7 +17,7 @@ const Navbar = () => {
   
   return (
    <nav className={`container ${sticky?'dark-nav':''}`}> 
-        <h1 className='heading'>KEENMINDS</h1>
+        <img src={logo} alt="" className='logo' />
         <ul className={menu?'':'hide-menu'} >
             <li><Link to='landingpage' smooth={true} offset={0} duration={500}>Home</Link></li>
             <li><Link to='services' smooth={true}  offset={-260}>Our Services</Link></li>

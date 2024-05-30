@@ -11,6 +11,10 @@ nav{
     background-color: transparent;
     color: white;
 }
+.logo{
+    width: 250px;
+    height: 70px;
+}
 .heading{
     font-weight: 700;
     font-size: 30px;
@@ -26,7 +30,8 @@ h1{
     cursor: pointer;
 }
 .dark-nav{
-    background-color: #5AB2FF;
+    background-color:#373A40;
+   
     transition: 0.5s;
     
 }
@@ -35,8 +40,8 @@ nav ul li button:hover{
 }
 
 nav ul li:hover{
-    color: black;
-    transition: 0.5s;
+    color: #5AB2FF;
+    transition: 0.3s;
 }
 /* media query */
 @media (max-width: 1800px) {
@@ -49,6 +54,10 @@ nav ul li:hover{
     .menu-icon{
         display: none;
     }
+    .logo{
+        width: 200px;
+        height: 50px;
+    }
     
 }
 @media (max-width:840px) {
@@ -58,14 +67,18 @@ nav ul li:hover{
     nav ul{
         position: fixed;
         top: 0;
-        right: 0;
+        left: 0;
         bottom: 0;
-        background-color: #5AB2FF;
+        background-color:#373A40;
         z-index: -1;
         width: 200px;
         padding-top: 70px;
         transition: 0.5s;
         
+    }
+    .logo{
+        width: 150px;
+        height: 50px;
     }
     nav ul li{
         display: block;
@@ -77,6 +90,6 @@ nav ul li:hover{
         cursor: pointer;
     }
     .hide-menu{
-        right: -200px;
+        left: -200px;
     }
 }

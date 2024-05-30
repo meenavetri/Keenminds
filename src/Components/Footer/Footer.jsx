@@ -6,13 +6,14 @@ import location from '../../assets/location-icon.png'
 import facebook from '../../assets/facebook_icon.png'
 import twitter from '../../assets/twitter_icon.png'
 import linkedin from '../../assets/linkedin_icon.png';
+import logo from '../../assets/Logo.png'
 const Footer = () => {
   return (
     <>
     <div className='footer container'>
     <div className="footer-content">
       <div className="footer-left">
-        <h1>KEENMINDS</h1>
+        <img src={logo} alt="" className='logo'/>
         <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent.</p>
         <div className="icons">
         <img src={facebook} alt="" />
@@ -33,9 +34,9 @@ const Footer = () => {
       <div className='footer-right'>
         <h2>Contact Details</h2>
        <ul >
-        <li><img src={mail} alt="" />Keenminds@gmail.com</li>
-        <li><img src={phone} alt="" />+91 1234567890</li>
-        <li><img src={location} alt="" />New York. 112 W 34th St caroline, USA</li>
+        <li><img src={mail} alt="" />support@keenminds.in</li>
+        <li><img src={phone} alt="" />+91 9025730630</li>
+        <li><img src={location} alt="" />#811, 10th 'A' Main Road, Indira Nagar 1st Stage, Bangalore, Karnataka - 560038</li>
        </ul>
       </div>
       </div>

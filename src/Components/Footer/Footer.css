@@ -1,13 +1,17 @@
 
 .footer{
     color: #d9d9d9;
-    background-color: black;
+    background-color: #373A40;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     padding: 20px 8vw;
     padding-top: 80px;
+}
+.logo{
+    width: 250px;
+    height: 70px;
 }
 .footer-content{
     width: 100%;
@@ -67,5 +71,9 @@
     }
     .footer-center ,.footer-left ,.footer-right{
         margin-bottom: 30px;
+    }
+    .logo{
+        width: 150px;
+        height: 50px;
     }
 }
